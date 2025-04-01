@@ -61,7 +61,7 @@ const Asistente = () => {
       const botResponse = {
         id: Date.now() + 1,
         sender: 'bot',
-        content: data.response || 'Lo siento, no pude procesar tu consulta en este momento. Por favor, intenta nuevamente más tarde.',
+        content: data.output || 'Lo siento, no pude procesar tu consulta en este momento. Por favor, intenta nuevamente más tarde.',
         timestamp: new Date()
       };
 
