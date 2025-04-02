@@ -58,7 +58,7 @@ const Sidebar = () => {
         {!collapsed && (
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-duck rounded-full flex items-center justify-center">
-              <span className="text-duck-foreground font-bold">PD</span>
+            <img src="public/pato.png" alt="Logo" className="w-full h-full object-cover rounded-full" />
             </div>
             <h1 className="text-sidebar-foreground font-bold">Pato Donald</h1>
           </div>

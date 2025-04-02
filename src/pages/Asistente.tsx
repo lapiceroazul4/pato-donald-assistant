@@ -119,7 +119,7 @@ const Asistente = () => {
         <div className="border-b p-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-duck rounded-full flex items-center justify-center">
-              <span className="text-duck-foreground font-bold">PD</span>
+              <img src="public/pato.png" alt="Logo" className="w-full h-full object-cover rounded-full" />
             </div>
             <div>
               <h1 className="font-bold text-lg">Pato Donald</h1>

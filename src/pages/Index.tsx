@@ -36,7 +36,7 @@ const Index = () => {
       <section className="mb-10">
         <div className="flex flex-col items-center text-center space-y-4 mb-12">
           <div className="w-20 h-20 bg-duck rounded-full flex items-center justify-center mb-2 animate-bounce-light">
-            <span className="text-duck-foreground text-2xl font-bold">PD</span>
+            <img src="public/pato.png" alt="Logo" className="w-full h-full object-cover rounded-full" />
           </div>
           <h1 className="text-4xl md:text-5xl font-bold">Bienvenido a Pato Donald</h1>
           <p className="text-xl text-muted-foreground max-w-2xl">
@@ -86,7 +86,7 @@ const Index = () => {
               </div>
               <div className="w-full md:w-1/3 aspect-square bg-gradient-to-br from-primary to-accent/50 rounded-lg flex items-center justify-center">
                 <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-5xl">🦆</span>
+                  <img src="public/pato.png" alt="Logo" className="w-full h-full object-cover rounded-full" />
                 </div>
               </div>
             </div>
