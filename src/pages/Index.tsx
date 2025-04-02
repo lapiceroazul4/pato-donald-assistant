@@ -86,7 +86,7 @@ const Index = () => {
               </div>
               <div className="w-full md:w-1/3 aspect-square bg-gradient-to-br from-primary to-accent/50 rounded-lg flex items-center justify-center">
                 <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center shadow-lg">
-                  <img src="public/pato.png" alt="Logo" className="w-full h-full object-cover rounded-full" />
+                  <img src="pato.png" alt="Logo" className="w-full h-full object-cover rounded-full" />
                 </div>
               </div>
             </div>
