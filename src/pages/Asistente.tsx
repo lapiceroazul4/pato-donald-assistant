@@ -43,7 +43,12 @@ const Asistente = () => {
 
     try {
       // Conexión con el endpoint de n8n
-      const response = await fetch('https://lapiceroazul4.app.n8n.cloud/webhook-test/1c127f31-7d4a-4836-bbdb-9fb6097d9b8e', {
+
+      // This is the test endpoint
+      //const response = await fetch('https://lapiceroazul4.app.n8n.cloud/webhook-test/1c127f31-7d4a-4836-bbdb-9fb6097d9b8e', {
+        
+      // This is the production endpoint
+        const response = await fetch('https://lapiceroazul4.app.n8n.cloud/webhook/1c127f31-7d4a-4836-bbdb-9fb6097d9b8e', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
